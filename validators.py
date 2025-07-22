@@ -1,4 +1,4 @@
-mport re
+import re
 from abc import ABC, abstractmethod
  
 class Validator(ABC):
