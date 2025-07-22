@@ -63,7 +63,6 @@ class JobSeeker:
             result = [j for j in result if j.salary >= salary]
         return result
  
-# ===== Example Usage =====
 if name == "__main__":
     c = Company("ArmeniaTech", "+37477123456")
     j1 = FullTimeJob("Backend Developer", "Work with Python", 5000, c)
